@@ -1,0 +1,149 @@
+<view class="orderDetail-container">
+    <view class="nav">
+        <view class="tab {{selectedl?'red':'default'}}" bindtap="selectedl">
+            <text>订单状态</text>
+            <view class="slider {{selectedl?'show':'hidden'}}"></view>
+        </view>
+        <view class="tab {{selectedr?'red':'default'}}" bindtap="selectedr">
+            <text>订单详情</text>
+            <view class="slider {{selectedr?'show':'hidden'}}"></view>
+        </view>
+    </view>
+
+    <view class="list {{selectedl?'show':'hidden'}}">
+       
+       <view class="progressBar"></view>
+
+       <view class="list-item">
+            <view class="point"></view>
+            <view class="list-item-head">
+                <view class="list-item-head-name left">
+                    订单已提交
+                </view>
+                <view class="list-item-head-time right">
+                    3月5日 12:31
+                </view>
+                <view class="clear"></view>
+            </view>
+            <view class="list-item-content">
+                请耐心等待商家确认
+            </view>
+       </view>
+
+       <view class="list-item">
+            <view class="point"></view>
+            <view class="list-item-head">
+                <view class="list-item-head-name left">
+                    支付成功
+                </view>
+                <view class="list-item-head-time right">
+                    3月5日 12:31
+                </view>
+                <view class="clear"></view>
+            </view>
+            <view class="list-item-content">
+                <!--请耐心等待商家确认-->
+            </view>
+       </view>
+
+       <view class="list-item">
+            <view class="point"></view>
+            <view class="list-item-head">
+                <view class="list-item-head-name left">
+                    商家已接单
+                </view>
+                <view class="list-item-head-time right">
+                    3月5日 12:31
+                </view>
+                <view class="clear"></view>
+            </view>
+            <view class="list-item-content">
+                商品准备中，请耐心等待
+            </view>
+       </view>
+
+       <view class="list-item footer">
+            <view class="point">
+                <image src="http://yaoyaoxuan.top/images/face.png"></image>
+            </view>
+            <view class="list-item-head">
+                <view class="list-item-head-name left">
+                    订单完成
+                </view>
+                <view class="list-item-head-time right">
+                    3月5日 12:31
+                </view>
+                <view class="clear"></view>
+            </view>
+            <view class="list-item-content">
+                <!--商品准备中，请耐心等待-->
+            </view>
+       </view>
+
+       <view class="clear"></view>
+
+    </view>
+
+    <view class="list {{selectedr?'show':'hidden'}}">
+        <view class="panel">
+            <view class="panel-title">
+                <text>订单详情</text>
+            </view>
+            <view class="panel-content">
+                <navigator url="../shopDetail/shopDetail">
+                    <view class="business">
+                        <view class="business-img">
+                            <image src="http://yaoyaoxuan.top/images/business.png"></image></view>
+                        <view class="business-name left">河西芭比汉堡</view>
+                        <view class="arrow-right">
+                            <image src="http://yaoyaoxuan.top/images/arrow-right.png"></image>
+                        </view>
+                        <view class="clear"></view>
+                    </view>
+                </navigator>
+                <view class="body">
+                    <view class="body-item">
+                        <text class="left">南瓜饼4个</text>
+                        <text class="right">￥4</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">里脊肉</text>
+                        <text class="right">￥1.5</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">超值套餐7号</text>
+                        <text class="right">￥11</text>
+                        <view class="clear"></view>
+                    </view>
+                </view>
+                <view class="count">
+                    <view class="right">共3件商品，实付 <text>￥14.5</text></view>
+                    <view class="clear"></view>
+                </view>
+            </view>
+        </view>
+
+        <view class="panel">
+            <view class="panel-title">
+                <text>订单信息</text>
+            </view>
+            <view class="panel-content">
+                <view class="panel-content-item">
+                    <text class="panel-content-item-name">订单号码</text>
+                    <text class="panel-content-item-content">5702 8316 1545 715</text>
+                </view>
+                <view class="panel-content-item">
+                    <text class="panel-content-item-name">订单时间</text>
+                    <text class="panel-content-item-content">2017-03-05 12:31:18</text>
+                </view>
+                <view class="panel-content-item footer">
+                    <text class="panel-content-item-name">支付方式</text>
+                    <text class="panel-content-item-content">在线支付</text>
+                </view>
+            </view>
+        </view>
+
+    </view>
+</view>

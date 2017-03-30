@@ -1,0 +1,73 @@
+<view class="shopList-container {{selected?'list-hidden':'list-auto'}}">
+    <view class="fixd-box">
+        <view class="searchBox">
+            <view class="searchBox-input">
+                <image class="left" src="http://yaoyaoxuan.top/images/search.png"></image>
+                <view class="left">输入餐厅名称、菜系、菜名</view>
+                <view class="clear"></view>
+            </view>
+        </view>
+
+        <view class="nav">
+            <view class="nav-item left" bindtap="togglePop">
+                全部餐厅
+                <image src="http://yaoyaoxuan.top/images/xia.png"></image>
+            </view>
+            <view class="nav-item left">
+                综合排序
+                <image src="http://yaoyaoxuan.top/images/xia.png"></image>
+            </view>
+            <view class="nav-item left">
+                筛选
+                <image src="http://yaoyaoxuan.top/images/xia.png"></image>
+            </view>
+            <view class="clear"></view>
+        </view>
+    </view>
+
+    <view class="popup" hidden="{{flag}}">
+        <view class="shop-category">
+            <view class="category-item">全部餐厅</view>
+            <view class="category-item">快餐小吃</view>
+            <view class="category-item">甜点饮品</view>
+            <view class="category-item">快餐小吃</view>
+            <view class="category-item">甜点饮品</view>
+            <view class="category-item">快餐小吃</view>
+            <view class="category-item">甜点饮品</view>
+        </view>
+        <view class="mask" bindtap="togglePop"></view>
+    </view>
+
+    <view class="list">
+
+        <block wx:for="{{test.data}}" wx:key="imgUrlsId">
+            <navigator url="../shopDetail/shopDetail">
+                <view class="list-item">
+                    <image class="list-item-img left" src="http://yaoyaoxuan.top/images/food2.jpg"></image>
+                    <view class="list-item-right">
+                        <view class="list-item-name">
+                            唯一私房蛋糕{{item.address}}
+                            <text class="list-item-dis">1.3km</text>
+                        </view>
+
+                        <view class="list-item-star">
+                            <view class="gray">
+                                <view class="colour"></view>
+                                <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+                            </view>
+
+                            <view>平均等餐20分钟</view>
+                            <view class="clear"></view>
+                        </view>
+
+                        <view class="list-item-des">甜点饮品</view>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="clear"></view>
+                </view>
+            </navigator>
+        </block>
+
+    </view>
+</view>
+<view class="bottom-border"></view>

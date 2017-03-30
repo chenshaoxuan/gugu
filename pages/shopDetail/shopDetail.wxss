@@ -1,0 +1,361 @@
+page{
+    background-color: #f6f6f6;
+    height: 100%;
+}
+.fixed-box{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.slide-box{
+    position: absolute;
+    bottom: 45px;
+    margin-top: 322rpx;
+    top:0;
+}
+.header{
+    height: 230rpx;
+    background-color: #F19584; 
+}
+.header .avatar{
+    float: left;
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 60rpx;
+    margin-left: 30rpx;
+    margin-top: 10rpx;
+}
+.shop-desc{
+    margin-left: 150rpx;
+    min-height: 20rpx;
+}
+.header .name{
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 34rpx;
+    margin-top: 15rpx;
+    margin-left: 20rpx;
+ 
+}
+.header .promotion{
+    float: left;
+    color: #eee;
+    font-size: 28rpx;
+    margin-left: 20rpx;
+    margin-top: 10rpx;
+}
+.promotion-img{
+    height: 30rpx;
+    width: 30rpx;
+    float: left;
+    margin-top: 8rpx;
+    margin-right: 8rpx;
+}
+.promotion-text{
+    width: 450rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header .footer{
+    border-top:2rpx dashed #fff;
+    margin-top: 30rpx;
+    font-size: 22rpx;
+    color:#fff;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    line-height: 65rpx;
+}
+.color-text{
+    background-color: #62D2A2;
+    height: 40rpx;
+    width: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    margin-top: 12rpx;
+    margin-right: 10rpx;
+}
+swiper{
+    height:50rpx;
+    width:600rpx;
+    float:left;
+}
+.redtext{
+    color:#F19584;
+}
+.arrow{
+    height: 40rpx;
+    width: 40rpx;
+    margin-top: 25rpx;
+    float: right;
+    margin-right: 30rpx;
+}
+
+.wrapper-menu{
+    float:left;
+    width: 200rpx;
+    background-color: #f6f6f6;
+    height: 100%;
+    overflow-y: auto;
+}
+.wrapper-body{
+    margin-left:200rpx;
+    width:552rpx;
+    height:100%;
+    overflow-y:auto;
+    background-color: #fff;
+}
+.wrapper-menu-item{
+    color:#888;
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    font-size: 30rpx;
+    border-bottom: 1rpx dotted #ddd;
+    padding-left: 28rpx;
+    padding-right: 28rpx;
+}
+.active{
+    background-color: #fff;
+    color: #000;
+}
+.list{
+    height: 100%;
+}
+
+.wrapper-body-title{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
+    color:#555;
+    position: fixed;
+    left: 216rpx;
+    right: 0;
+    background-color: rgba(255,255,255,0.9);
+    width: 530rpx;
+}
+.wrapper-body-title view{
+    float: left;
+    background-color: #F19584;
+    height: 20rpx;
+    width: 6rpx;
+    margin-top: 20rpx;
+    margin-right: 10rpx;
+}
+.wrapper-body-list{
+    padding-top:20rpx; 
+    background-color: #fff;
+}
+.wrapper-body-item{
+    padding-bottom: 10rpx;
+    border-bottom: 1px solid #eee;
+}
+.wrapper-body-item-img{
+    float: left;
+    height: 140rpx;
+    width: 140rpx;
+    margin-left: 18rpx;
+
+}
+.wrapper-body-item-body{
+    float: left;
+    margin-left: 16rpx;
+    font-size: 24rpx;
+    width: 378rpx;
+}
+.food-name{
+    font-size: 34rpx;
+}
+.food-desc{
+    color:#999;
+}
+.food-comment{
+    color: #999;
+}
+.food-price{
+    color: #F19584;
+    font-size: 36rpx;
+    width: 100%;
+}
+.food-price-num{
+    float: left;
+}
+.food-btn{
+    float: right;
+    margin-right: 30rpx;
+    background-color: #F19584;
+    color: #fff;
+    min-width: 44rpx;
+    height: 44rpx;
+    line-height: 44rpx;
+    text-align: center;
+    border-radius: 22rpx;
+    font-size: 45rpx;
+}
+
+.cart-box{
+    position: fixed;
+    bottom: 0;
+    height: 44px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.cart-img{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    top:-23px;
+    left:30rpx;
+}
+.cart-btn{
+    background-color: #F19584;
+    float: right;
+    width: 250rpx;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color:#fff;
+}
+
+/*评价页面*/
+.general{
+    font-size: 32rpx;
+    height:120rpx;
+    background-color: #fff;
+    width: 750rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+.general-left{
+    float: left;
+    text-align: center;
+    width: 270rpx;
+}
+.larger-text{
+    font-size: 50rpx;
+    color:#F19584;
+}
+.line{
+    float: left;
+    height: 120rpx;
+    background-color: #eee;
+    width: 1rpx;
+}
+.general-right{
+    float: left;
+    text-align: center;
+    width: 479rpx;
+}
+.general-right-item{
+    height: 60rpx;
+    line-height: 60rpx;
+    position: relative;
+}
+.text{
+    float:left;
+    margin-left: 70rpx;
+}
+.star{
+    position: absolute;
+    left: 0;
+    height: 30rpx;
+    width: 139rpx;
+    z-index: 11;
+}
+.gray{
+    position: relative;
+    margin-left: 20rpx;
+    float:left;
+    height: 30rpx;
+    width: 139rpx;
+    background-color: #eee;
+    top:15rpx;
+}
+.colour{
+    position: absolute;
+    left: 0;
+    height: 30rpx;
+    width: 120rpx;
+    background-color: #F19584;
+    z-index: 10;
+}
+.number{
+    margin-left: 20rpx;
+    color: #F19584;
+}
+
+.categories{
+    background-color: #fff;
+    width: 750rpx;
+    margin-top: 20rpx;
+}
+.categories-box{
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+.categories-item{
+    font-size: 30rpx;
+    float: left;
+    height: 60rpx;
+    line-height: 60rpx;
+    border:1rpx solid #ddd;
+    border-radius: 30rpx;
+    padding-left:25rpx;
+    padding-right: 25rpx;
+    text-align: center;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    color:#888;
+}
+.categories-box .active{
+    border:1rpx solid #F19584;
+    color: #F19584;
+}
+.details-item{
+    font-size: 32rpx;
+    padding: 20rpx;
+    background-color: #fff;
+    border-top:1rpx solid #eee;
+}
+.item-left{
+    float: left;
+    width: 125rpx;
+}
+.item-left-img{
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 40rpx;
+    border:1rpx solid #ddd;
+    margin-left: 20rpx;
+}
+.item-right{
+    float: left;
+    width: 585rpx;
+}
+.user-name{
+    margin-top: 10rpx;
+}
+.time{
+    float: right;
+    color: #999;
+    font-size: 28rpx;
+}
+.food-img{
+    margin-top: 10rpx;
+    height: 400rpx;
+    width: 400rpx;
+}
+.item-star .gray{
+    top: 0;
+    margin-left: 0;
+}
+.item-content{
+    margin-top: 10rpx;
+}

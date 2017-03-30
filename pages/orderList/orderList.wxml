@@ -1,0 +1,229 @@
+<!--<import src="../common/head.wxml" />
+<template is="head" data="{{title:'订单'}}" />-->
+
+<view class="orderList-container">
+    <view class="nav">
+        <view class="tab {{selectedl?'red':'default'}}" bindtap="selectedl">
+            <text>全部订单</text>
+            <view class="slider {{selectedl?'show':'hidden'}}"></view>
+        </view>
+        <view class="tab {{selectedr?'red':'default'}}" bindtap="selectedr">
+            <text>待评价(1)</text>
+            <view class="slider {{selectedr?'show':'hidden'}}"></view>
+        </view>
+    </view>
+
+    <view class="list {{selectedl?'show':'hidden'}}">
+        <view class="list-item">
+            <navigator url="../shopDetail/shopDetail">
+                <view class="head">
+                    <view class="head-left left">
+                        <image src="http://yaoyaoxuan.top/images/business.png" class="logo"></image>
+                        <text class="left">河西芭比汉堡</text>
+                        <image src="http://yaoyaoxuan.top/images/arrow-right.png" class="arrow"></image>
+                    </view>
+                    <view class="head-right right">
+                        订单完成
+                    </view>
+                    <view class="clear"></view>
+                </view>
+            </navigator>
+            <view class="cut"></view>
+
+            <navigator url="../orderDetail/orderDetail">
+
+                <view class="body">
+                    <view class="body-item">
+                        <text class="left">南瓜饼4个</text>
+                        <text class="right">￥4</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">里脊肉</text>
+                        <text class="right">￥1.5</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">超值套餐7号</text>
+                        <text class="right">￥11</text>
+                        <view class="clear"></view>
+                    </view>
+                </view>
+            
+                <view class="count">
+                    <view class="right">共3件商品，实付 <text>￥14.5</text></view>
+                    <view class="clear"></view>
+                </view>
+
+            </navigator>
+
+            <view class="footer">
+                <button class="comment">去评价</button>
+                <button>再来一单</button>
+                <button>删除订单</button>
+                <view class="clear"></view>
+            </view>
+        </view>
+
+        <view class="list-item">
+            <navigator url="../shopDetail/shopDetail">
+                <view class="head">
+                    <view class="head-left left">
+                        <image src="http://yaoyaoxuan.top/images/business.png" class="logo"></image>
+                        <text class="left">河西芭比汉堡</text>
+                        <image src="http://yaoyaoxuan.top/images/arrow-right.png" class="arrow"></image>
+                    </view>
+                    <view class="head-right right">
+                        订单完成
+                    </view>
+                    <view class="clear"></view>
+                </view>
+            </navigator>
+            <view class="cut"></view>
+
+            <navigator url="../orderDetail/orderDetail">
+
+                <view class="body">
+                    <view class="body-item">
+                        <text class="left">南瓜饼4个</text>
+                        <text class="right">￥4</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">里脊肉</text>
+                        <text class="right">￥1.5</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">超值套餐7号</text>
+                        <text class="right">￥11</text>
+                        <view class="clear"></view>
+                    </view>
+                </view>
+            
+                <view class="count">
+                    <view class="right">共3件商品，实付 <text>￥14.5</text></view>
+                    <view class="clear"></view>
+                </view>
+
+            </navigator>
+
+            <view class="footer">
+                <button class="comment">去评价</button>
+                <button>再来一单</button>
+                <button>删除订单</button>
+                <view class="clear"></view>
+            </view>
+        </view>
+
+        <view class="list-item">
+            <navigator url="../shopDetail/shopDetail">
+                <view class="head">
+                    <view class="head-left left">
+                        <image src="http://yaoyaoxuan.top/images/business.png" class="logo"></image>
+                        <text class="left">河西芭比汉堡</text>
+                        <image src="http://yaoyaoxuan.top/images/arrow-right.png" class="arrow"></image>
+                    </view>
+                    <view class="head-right right">
+                        订单完成
+                    </view>
+                    <view class="clear"></view>
+                </view>
+            </navigator>
+            <view class="cut"></view>
+
+            <navigator url="../orderDetail/orderDetail">
+
+                <view class="body">
+                    <view class="body-item">
+                        <text class="left">南瓜饼4个</text>
+                        <text class="right">￥4</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">里脊肉</text>
+                        <text class="right">￥1.5</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">超值套餐7号</text>
+                        <text class="right">￥11</text>
+                        <view class="clear"></view>
+                    </view>
+                </view>
+            
+                <view class="count">
+                    <view class="right">共3件商品，实付 <text>￥14.5</text></view>
+                    <view class="clear"></view>
+                </view>
+
+            </navigator>
+
+            <view class="footer">
+                <button class="comment">去评价</button>
+                <button>再来一单</button>
+                <button>删除订单</button>
+                <view class="clear"></view>
+            </view>
+        </view>
+
+    </view>
+    <view class="list {{selectedr?'show':'hidden'}}">
+
+        <view class="list-item">
+            <navigator url="../shopDetail/shopDetail">
+                <view class="head">
+                    <view class="head-left left">
+                        <image src="http://yaoyaoxuan.top/images/business.png" class="logo"></image>
+                        <text class="left">河西芭比汉堡</text>
+                        <image src="http://yaoyaoxuan.top/images/arrow-right.png" class="arrow"></image>
+                    </view>
+                    <view class="head-right right">
+                        订单完成
+                    </view>
+                    <view class="clear"></view>
+                </view>
+            </navigator>
+            <view class="cut"></view>
+
+            <navigator url="../orderDetail/orderDetail">
+
+                <view class="body">
+                    <view class="body-item">
+                        <text class="left">南瓜饼4个</text>
+                        <text class="right">￥4</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">里脊肉</text>
+                        <text class="right">￥1.5</text>
+                        <view class="clear"></view>
+                    </view>
+                    <view class="body-item">
+                        <text class="left">超值套餐7号</text>
+                        <text class="right">￥11</text>
+                        <view class="clear"></view>
+                    </view>
+                </view>
+            
+                <view class="count">
+                    <view class="right">共3件商品，实付 <text>￥14.5</text></view>
+                    <view class="clear"></view>
+                </view>
+
+            </navigator>
+
+            <view class="footer">
+                <button class="comment">去评价</button>
+                <button>再来一单</button>
+                <button>删除订单</button>
+                <view class="clear"></view>
+            </view>
+        </view>
+
+    </view>
+    
+</view>
+<view class="bottom-border"></view>
+
+<!--<include src="../Master/Master" />-->

@@ -1,0 +1,158 @@
+page{
+    height: 100%;
+    overflow: hidden;
+}
+.shopList-container{
+    height: 100%;
+}
+.fixd-box{
+    position: fixed;
+    width: 750rpx;
+    z-index: 999;
+}
+.searchBox{
+    background-color: #f19584;
+    height: 90rpx;
+    overflow: auto;
+}
+.searchBox-input{
+    background-color: #fff;
+    height: 70rpx;
+    line-height: 70rpx;
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+    width: 720rpx;
+    border-radius: 10rpx;
+    color:#bbb;
+    font-size:30rpx;
+    text-align: center;
+}
+.searchBox-input image{
+    height: 40rpx;
+    width: 40rpx;
+    margin-top: 15rpx;
+    margin-right: 15rpx;
+    margin-left: 20rpx;
+}
+
+.nav{
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    color: #999;
+}
+.nav-item{
+    width: 250rpx;
+    text-align: center;
+}
+.nav-item image{
+    height: 20rpx;
+    width: 20rpx;
+}
+.list{
+    float: left;
+    margin-top: 170rpx;
+    overflow: auto;
+}
+.list-item{
+    height: 200rpx;
+    width: 750rpx;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    padding-bottom: 10rpx;
+    padding-top: 10rpx;
+}
+.list-item-img{
+    height: 150rpx;
+    width: 180rpx;
+    margin: 24rpx;
+    border:1rpx solid #eee;
+}
+
+.list-item-right{
+    margin-left: 230rpx;
+}
+.list-item-name{
+    font-size: 38rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding-top: 15rpx;
+}
+.list-item-dis{
+    font-size: 30rpx;
+    color: #999;
+    float: right;
+    margin-right: 25rpx;
+}
+.list-item-star{
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+    height: 20rpx;
+
+    font-size: 28rpx;
+    color:#999;
+    line-height: 30rpx;
+}
+.list-item-des{
+    font-size: 30rpx;
+    color:#999;
+    margin-top: 30rpx;
+}
+.star{
+    position: absolute;
+    left: 0;
+    height: 30rpx;
+    width: 139rpx;
+    z-index: 11;
+}
+.gray{
+    position: relative;
+    float:left;
+    height: 30rpx;
+    width: 139rpx;
+    background-color: #eee;
+    margin-right: 15rpx;
+}
+.colour{
+    position: absolute;
+    left: 0;
+    height: 30rpx;
+    width: 120rpx;
+    background-color: #F3F169;
+    z-index: 10;
+}
+
+
+
+/*弹出层*/
+.popup{
+    position: fixed;
+    top:170rpx;
+    width: 750rpx;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    height: 100%;
+    z-index: 50;
+}
+.mask{
+    width: 750rpx;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.shop-category{
+    background-color: #fff;
+    font-size: 30rpx;
+}
+.list-hidden{
+    height: 100%;
+    overflow: hidden;
+}
+.list-auto{
+    overflow: auto;
+}
+.category-item{
+    height: 80rpx;
+    width: 350rpx;
+    padding-left:25rpx;
+    line-height: 80rpx;
+    color:#666;
+}

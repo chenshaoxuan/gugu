@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shopList/shopList",
+    "pages/orderList/orderList",
+    "pages/orderDetail/orderDetail",
+    "pages/shopDetail/shopDetail",
+    "pages/userCenter/userCenter"
+  ],
+  "tabBar": {
+    "borderStyle":"white",
+    "selectedColor": "#f19584",
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/shome.png"
+    }, {
+      "pagePath": "pages/shopList/shopList",
+      "text": "餐厅",
+      "iconPath":"images/shop.png",
+      "selectedIconPath":"images/sshop.png"
+    }, {
+      "pagePath": "pages/orderList/orderList",
+      "text": "订单",
+      "iconPath":"images/myaccount.png",
+      "selectedIconPath":"images/smyaccount.png"
+    }, {
+      "pagePath": "pages/userCenter/userCenter",
+      "text": "我的",
+      "iconPath":"images/person.png",
+      "selectedIconPath":"images/sperson.png"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "咕咕点餐",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,329 @@
+<view class="shopDetail-container">
+  <view class="fixed-box">
+    <view class="header">
+      <view class="head">
+        <image class="avatar" src="http://yaoyaoxuan.top/images/avatar.jpg"></image>
+        <view class="shop-desc">
+          <view class="name">
+            河西芭比汉堡
+          </view>
+          <image class="arrow" src="http://yaoyaoxuan.top/images/white-arrow-right.png"></image>
+          <view class="promotion">
+            <image class="promotion-img" src="http://yaoyaoxuan.top/images/voice.png"></image>
+            <view class="promotion-text">老板出去度蜜月了，有事可以和店里的小姑娘沟通</view>
+          </view>
+        </view>
+        <view class="clear"></view>
+      </view>
+      <view class="footer">
+        <swiper autoplay="true" interval="3000" vertical="true">
+          <block>
+            <swiper-item>
+              <text class="color-text left">新</text>
+              <text class="left">新用户下单立减20元(不与其他活动共享)</text>
+            </swiper-item>
+            <swiper-item>
+              <text class="color-text left">新</text>
+              <text class="left">新用户下单立减20元(不与其他活动共享)</text>
+            </swiper-item>
+          </block>
+        </swiper>
+        <text class="right">2个活动</text>
+        <view class="clear"></view>
+      </view>
+      <view class="clear"></view>
+    </view>
+
+    <view class="nav">
+      <view class="tab {{selectedl?'red':'default'}}" bindtap="selectedl">
+        <text>点菜</text>
+        <view class="slider {{selectedl?'show':'hidden'}}"></view>
+      </view>
+      <view class="tab {{selectedr?'red':'default'}}" bindtap="selectedr">
+        <text>评价</text>
+        <text class="redtext">(4.8分)</text>
+        <view class="slider {{selectedr?'show':'hidden'}}"></view>
+      </view>
+    </view>
+    
+  </view>
+  <view class="slide-box">
+    <!--点菜页面-->
+    <view class="list {{selectedl?'show':'hidden'}}">
+      <!--点菜页面分类列表-->
+      <view class="wrapper-menu">
+        <view class="wrapper-menu-item active">热销</view>
+        <view class="wrapper-menu-item">套餐天下</view>
+        <view class="wrapper-menu-item">堡皇系列</view>
+        <view class="wrapper-menu-item">汉堡类</view>
+        <view class="wrapper-menu-item">小吃类</view>
+        <view class="wrapper-menu-item">速食简餐</view>
+        <view class="wrapper-menu-item">新品小吃</view>
+        <view class="wrapper-menu-item">饮料</view>
+        <view class="wrapper-menu-item">酱料区</view>
+        <view class="wrapper-menu-item"> </view>
+      </view>
+
+      <view class="wrapper-body">
+
+        <!--热销-->
+        <view class="wrapper-body-title">
+          <view></view>
+          热销
+        </view>
+
+        <!--点菜页面菜列表-->
+        <view style="padding-top:40rpx;">
+
+          <view class="wrapper-body-list">
+            <view class="wrapper-body-item">
+              <image class="wrapper-body-item-img" src="http://yaoyaoxuan.top/images/product1.jpg"></image>
+              <view class="wrapper-body-item-body">
+                <view class="food-name">超值套餐7号</view>
+                <view class="food-desc">鸡腿堡+薯条+可乐</view>
+                <view class="food-comment">
+                  <text>月售113 </text>
+                  <text> 赞0</text>
+                </view>
+                <view class="food-price">
+                  <view class="food-price-num">￥16</view>
+                  <view class="food-btn">+</view>
+                  <view class="clear"></view>
+                </view>
+                <view class="clear"></view>
+              </view>
+              <view class="clear"></view>
+            </view>
+          </view>
+
+          <view class="wrapper-body-list">
+            <view class="wrapper-body-item">
+              <image class="wrapper-body-item-img" src="http://yaoyaoxuan.top/images/product2.jpg"></image>
+              <view class="wrapper-body-item-body">
+                <view class="food-name">超值套餐7号</view>
+
+                <!--<view class="food-desc">鸡腿堡+薯条+可乐</view>-->
+                <view class="food-comment">
+                  <text>月售113 </text>
+                  <text> 赞0</text>
+                </view>
+                <view class="food-price">
+                  <view class="food-price-num">￥16</view>
+                  <view class="food-btn">+</view>
+                  <view class="clear"></view>
+                </view>
+                <view class="clear"></view>
+              </view>
+              <view class="clear"></view>
+            </view>
+          </view>
+
+          <view class="wrapper-body-list">
+            <view class="wrapper-body-item">
+              <image class="wrapper-body-item-img" src="http://yaoyaoxuan.top/images/product3.jpg"></image>
+              <view class="wrapper-body-item-body">
+                <view class="food-name">超值套餐7号</view>
+                <view class="food-desc">鸡腿堡+薯条+可乐</view>
+                <view class="food-comment">
+                  <text>月售113 </text>
+                  <text> 赞0</text>
+                </view>
+                <view class="food-price">
+                  <view class="food-price-num">￥16</view>
+                  <view class="food-btn">+</view>
+                  <view class="clear"></view>
+                </view>
+                <view class="clear"></view>
+              </view>
+              <view class="clear"></view>
+            </view>
+          </view>
+
+          <view class="wrapper-body-list">
+            <view class="wrapper-body-item">
+              <image class="wrapper-body-item-img" src="http://yaoyaoxuan.top/images/product4.jpg"></image>
+              <view class="wrapper-body-item-body">
+                <view class="food-name">超值套餐7号</view>
+                <view class="food-desc">鸡腿堡+薯条+可乐</view>
+                <view class="food-comment">
+                  <text>月售113 </text>
+                  <text> 赞0</text>
+                </view>
+                <view class="food-price">
+                  <view class="food-price-num">￥16</view>
+                  <view class="food-btn">+</view>
+                  <view class="clear"></view>
+                </view>
+                <view class="clear"></view>
+              </view>
+              <view class="clear"></view>
+            </view>
+          </view>
+
+          <view class="wrapper-body-list">
+            <view class="wrapper-body-item">
+              <image class="wrapper-body-item-img" src="http://yaoyaoxuan.top/images/product1.jpg"></image>
+              <view class="wrapper-body-item-body">
+                <view class="food-name">超值套餐7号</view>
+                <view class="food-desc">鸡腿堡+薯条+可乐</view>
+                <view class="food-comment">
+                  <text>月售113 </text>
+                  <text> 赞0</text>
+                </view>
+                <view class="food-price">
+                  <view class="food-price-num">￥16</view>
+                  <view class="food-btn">+</view>
+                  <view class="clear"></view>
+                </view>
+                <view class="clear"></view>
+              </view>
+              <view class="clear"></view>
+            </view>
+          </view>
+
+        </view>
+
+      </view>
+      <!--点菜页面结算栏-->
+      <view class="cart-box">
+        <image class="cart-img" src="http://yaoyaoxuan.top/images/cart.png"></image>
+        <view class="cart-btn">去结算</view>
+      </view>
+
+      <view class="clear"></view>
+    </view>
+
+    <!--评价页面-->
+    <view class="list {{selectedr?'show':'hidden'}}">
+      <!--综合评价-->
+      <view class="general">
+        <view class="general-left">
+          <view class="larger-text">4.8</view>
+          <view style="font-size:30rpx;">综合评分</view>
+        </view>
+        <view class="line"></view>
+        <view class="general-right">
+          <view class="general-right-item">
+            <text class="text">服务态度</text>
+            <view class="gray"> 
+              <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+              <view class="colour"></view>
+            </view>
+            <text class="number left">4.9</text>
+            <view class="clear"></view>
+          </view>
+          <view class="general-right-item">
+            <text class="text">商品评价</text>         
+            <view class="gray"> 
+              <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+              <view class="colour"></view>
+            </view>
+            <text class="number left">4.7</text>
+            <view class="clear"></view>
+          </view>
+        </view>
+        <view class="clear"></view>
+      </view>
+      <!--评价分类-->
+      <view class="categories">
+        <view class="categories-box">
+          <view class="categories-item active">全部<text>(388)</text></view>
+          <view class="categories-item">有图<text>(27)</text></view>
+          <view class="categories-item">好评<text>(374)</text></view>
+          <view class="categories-item">中评<text>(2)</text></view>
+          <view class="categories-item">差评<text>(2)</text></view>
+          <view class="categories-item">追评<text>(2)</text></view>
+          <view class="categories-item">味道赞<text>(69)</text></view>
+          <view class="categories-item">包装精美<text>(64)</text></view>
+          <view class="categories-item">送货快<text>(93)</text></view>
+          <view class="categories-item">准时送达<text>(80)</text></view>
+          <view class="categories-item">口味一般<text>(7)</text></view>
+          <view class="categories-item">配送慢<text>(2)</text></view>
+          <view class="clear"></view>
+        </view>
+      </view>
+      <!--评价详情列表-->
+      <view class="details">
+
+        <view class="details-item">
+          <view class="item-left">
+            <image class="item-left-img" src="http://yaoyaoxuan.top/images/user.png"></image>
+          </view>
+          <view class="item-right">
+            <view class="user-name">
+              EMF97559835
+              <text class="time">2017.02.21</text>
+            </view>
+            <view class="item-star">
+              <view class="gray">
+                <view class="colour"></view>
+                <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+              </view>
+              <view class="clear"></view>
+            </view>
+            <view class="item-content">
+              好好吃，鲜芋仙的味道好好，好喜欢啊哈哈哈哈哈哈哈哈哈
+            </view>
+            <view>
+              <image class="food-img" src="http://yaoyaoxuan.top/images/product5.jpg"></image>
+            </view>
+          </view> 
+          <view class="clear"></view>
+        </view>
+
+        <view class="details-item">
+          <view class="item-left">
+            <image class="item-left-img" src="http://yaoyaoxuan.top/images/user.png"></image>
+          </view>
+          <view class="item-right">
+            <view class="user-name">
+              EMF97559835
+              <text class="time">2017.02.21</text>
+            </view>
+            <view class="item-star">
+              <view class="gray">
+                <view class="colour"></view>
+                <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+              </view>
+              <view class="clear"></view>
+            </view>
+            <view class="item-content">
+              好好吃，鲜芋仙的味道好好，好喜欢啊哈哈哈哈哈哈哈哈哈
+            </view>
+            <view>
+              <!--<image class="food-img" src="../../images/product5.jpg"></image>-->
+            </view>
+          </view> 
+          <view class="clear"></view>
+        </view>
+
+        <view class="details-item">
+          <view class="item-left">
+            <image class="item-left-img" src="http://yaoyaoxuan.top/images/user.png"></image>
+          </view>
+          <view class="item-right">
+            <view class="user-name">
+              EMF97559835
+              <text class="time">2017.02.21</text>
+            </view>
+            <view class="item-star">
+              <view class="gray">
+                <view class="colour"></view>
+                <image class="star" src="http://yaoyaoxuan.top/images/star.png"></image>
+              </view>
+              <view class="clear"></view>
+            </view>
+            <view class="item-content">
+              好好吃，鲜芋仙的味道好好，好喜欢啊哈哈哈哈哈哈哈哈哈
+            </view>
+            <view>
+              <image class="food-img" src="http://yaoyaoxuan.top/images/product5.jpg"></image>
+            </view>
+          </view> 
+          <view class="clear"></view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,143 @@
+.orderList-container{
+    position: relative;
+    /*margin-bottom: 100rpx;*/
+}
+.orderList-container .nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 750rpx;
+    z-index: 999;
+}
+/*view{
+    font-family: 微软雅黑;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}*/
+
+/*.title{
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}*/
+/*.nav{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}*/
+.tab{
+    position: relative;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    width: 50%;
+}
+.slider{
+    position: absolute;
+    height: 2px;
+    background-color: #F19584;
+    width: 65px;
+    margin: auto;
+    top:26px;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+.list{
+    margin-top: 90rpx;
+    min-height: 200px;
+    background-color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list-item{
+    font-size: 14px;
+    min-height: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.head{
+    height: 40px;
+    line-height: 40px;
+    
+}
+.head-left{
+    margin-left: 15px;
+}
+.head-left .logo{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.head-left .arrow{
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.head-right{
+    margin-right: 15px;
+    color: #F19584;
+}
+.cut{
+    background-color: #eee;
+    height: 1px;
+    margin: 0 13px;
+}
+.body{
+    min-height: 10px;
+}
+.body-item{
+    padding: 5px 0;
+}
+.body-item text{
+    margin:0 18px;
+    color:#666;
+}
+.count{
+    color:#666;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.count text{
+    font-size: 16px;
+    color:#000;
+}
+.footer{
+    border-top:1px solid #eee;
+    font-size: 16px;
+}
+.footer .comment{
+    border: 0;
+    background-color: #F19584;
+    color:#fff;
+}
+.footer button{
+    margin: 10px 10px 10px 0;
+    font-size: 12px;
+    float:right;
+    background-color: #fff;
+    color:#666;
+}
+

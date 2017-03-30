@@ -1,0 +1,60 @@
+<view class="userCenter-container">
+    <view class="banner">
+        <image class="banner-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <view class="banner-name">
+            <view class="banner-name-level">宗师级吃货</view>
+            <view class="banner-name-name">{{userInfo.nickName}}</view>
+        </view>
+    </view>
+
+    <view class="menu">
+        <view class="menu-item">
+            <image src="http://yaoyaoxuan.top/images/foot.png"></image>
+            <view>足迹</view>
+        </view>
+        <view class="menu-item">
+            <image src="http://yaoyaoxuan.top/images/comment.png"></image>
+            <view>评论</view>
+        </view>
+        <view class="menu-item">
+            <image src="http://yaoyaoxuan.top/images/like.png"></image>
+            <view>收藏</view>
+        </view>
+        <view class="clear"></view>
+    </view>
+
+    <view class="list-box">
+        <view class="list">
+            <view class="list-item">
+                钱包
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/enter.png"></image>
+            </view>
+            <view class="list-item">
+                红包
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/enter.png"></image>
+            </view>
+            <view class="list-item">
+                代金券
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/enter.png"></image>
+            </view>
+        </view>
+        <view class="list">
+            <view class="list-item">
+                帮助与反馈
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/enter.png"></image>
+            </view>
+            <view class="list-item">
+                客服中心
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/enter.png"></image>
+            </view>
+        </view>
+        <view class="list">
+            <view class="list-item">
+                更多
+                <image class="list-enter" src="http://yaoyaoxuan.top/images/more.png"></image>
+            </view>
+        </view>
+    </view>
+
+</view>
+<view class="bottom-border"></view>

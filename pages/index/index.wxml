@@ -1,0 +1,75 @@
+<view class="index-container">
+    <!--广告轮播-->
+    <swiper class="banner-swiper" indicator-dots="true" autoplay="true" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="imgUrlsId">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <!--分类列表样式一-->
+    <view class="categories">
+        <view class="categories-title">
+            <view class="categories-title-text">分类</view>
+            <image src="http://yaoyaoxuan.top/images/category.png"></image>
+            <view class="clear"></view>
+        </view>
+        <scroll-view class="categories-content" scroll-x="true">
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/meishi.jpg"></image>
+                <view class="mask">美食</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/xiawuca.jpg"></image>
+                <view class="mask">下午茶</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/fenmian.jpg"></image>
+                <view class="mask">面食</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/xican.jpg"></image>
+                <view class="mask">西餐</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/meishi.jpg"></image>
+                <view class="mask">美食</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/meishi.jpg"></image>
+                <view class="mask">美食</view>
+            </view>
+            <view class="categroies-item">
+                <image src="http://yaoyaoxuan.top/images/meishi.jpg"></image>
+                <view class="mask">美食</view>
+            </view>
+            <view class="clear"></view>
+        </scroll-view>
+    </view>
+
+    <!--分类列表样式二-->
+    <view class="category">
+    </view>
+
+    <!--为你优选1-->
+    <view class="preferred">
+        <view class="preferred-title">
+            <view class="preferred-title-text">优选</view>
+            <image src="http://yaoyaoxuan.top/images/category.png"></image>
+            <view class="clear"></view>
+        </view>
+        <view class="preferred-content">
+            <view class="leftimg" >
+                <image src="http://yaoyaoxuan.top/images/food4.jpg"></image>
+            </view>
+            <view class="rightimg">
+                <image src="http://yaoyaoxuan.top/images/food2.jpg"></image>
+                <image class="centerimg" src="http://yaoyaoxuan.top/images/food3.jpg"></image>
+                <image src="http://yaoyaoxuan.top/images/food1.jpg"></image>
+            </view>
+            <view class="clear"></view>
+        </view>
+    </view>
+
+</view>
+<view class="bottom-border"></view>

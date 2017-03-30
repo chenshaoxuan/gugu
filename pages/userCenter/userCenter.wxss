@@ -1,0 +1,93 @@
+.userCenter-container{
+    position: relative;
+}
+.banner{
+    height:350rpx;
+    background-color: #F19584;
+    position: relative;
+}
+.banner-bg{
+    height: 400rpx;
+    background-color: #F19584;
+}
+.banner-avatar{
+    position: absolute;
+    top: 10rpx;
+    left:295rpx;
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 80rpx;
+}
+.banner-name{
+    position: absolute;
+    top: 150rpx;
+    width: 750rpx;
+    text-align: center;
+    color:#fff;
+}
+.banner-name-level{
+    width: 160rpx;
+    margin-left: 295rpx;
+    background-color: #c7ceb2;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+}
+.banner-name-name{
+    margin-top: 10rpx;
+}
+
+.menu{
+    position: absolute;
+    height: 180rpx;
+    width: 720rpx;
+    background-color: #fff;
+    top:290rpx;
+    left:15rpx;
+    border-radius: 10rpx;
+}
+.menu-item{
+    float: left;
+    width: 240rpx;
+    height: 180rpx;
+    text-align: center;
+    font-size: 35rpx;
+    color: #999;
+}
+.menu-item image{
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: 30rpx;
+}
+.list-box{
+    position: absolute;
+    width: 720rpx;
+    top:485rpx;
+    left:15rpx;
+}
+.list{
+    /*position: absolute;
+    width: 720rpx;
+    top:485rpx;
+    left:15rpx;*/
+    background-color: #fff;
+    border-radius: 10rpx;
+    margin-bottom: 18rpx;
+}
+.list-item{
+    height: 100rpx;
+    line-height: 100rpx;
+    color:#666;
+    font-size: 35rpx;
+    border-top:1rpx solid #eee;
+    width: 660rpx;
+    margin-left: 30rpx;
+}
+.list-item:first-child{
+    border:0;
+}
+.list-enter{
+    float: right;
+    height: 40rpx;
+    width: 40rpx;
+    margin-top: 30rpx;
+}

@@ -1,0 +1,99 @@
+page{
+    background-color: #fff;
+}
+.banner-swiper{
+    height: 380rpx;
+}
+.slide-image{
+    width: 100%;
+}
+.categories-title{
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.categories-title-text{
+    float: left;
+    margin-left: 36rpx;
+    color:#666;
+}
+.categories-title image{
+    float: right;
+    height: 100rpx;
+    width: 100rpx;
+    margin-top: 20rpx;
+}
+.categories-content{
+    white-space:nowrap;
+    width: 730rpx;
+    height: 230rpx;
+    margin-left: 20rpx;
+}
+.categroies-item{
+    position: relative;
+    width: 230rpx;
+    height: 230rpx;
+    /*float: left;*/
+    display: inline-block;
+    text-align: center;
+    line-height: 200rpx;
+}
+.categroies-item image{
+    width: 84%;
+    height: 84%;
+    border-radius: 20rpx;
+    margin-top: 8%;
+}
+.mask{
+    position: absolute;
+    top:8%;
+    left: 8%;
+    width: 84%;
+    height: 84%;
+    border-radius: 20rpx;
+    background-color:rgba(0,0,0,0.3);
+    color:#efefef;
+}
+
+.preferred-title{
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.preferred-title-text{
+    float: left;
+    margin-left: 36rpx;
+    color:#666;
+}
+.preferred-title image{
+    float: right;
+    height: 100rpx;
+    width: 100rpx;
+    margin-top: 20rpx;
+}
+
+/*优选样式一*/
+.leftimg{
+    float: left;
+    width: 500rpx;
+    height: 650rpx;
+}
+.leftimg image{
+    margin-left: 40rpx;
+    width: 450rpx;
+    height: 650rpx;
+    border-radius: 20rpx;
+}
+.rightimg{
+    float: left;
+    width: 250rpx;
+    height: 680rpx;
+}
+.rightimg image{
+    width: 210rpx;
+    height: 210rpx;
+    display: block;
+    border-radius: 20rpx;
+}
+.centerimg{
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
